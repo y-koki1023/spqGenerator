@@ -20,7 +20,7 @@
   "title": ""(string),
   "img": ""(imagePath),
   "blocks": [](block_id), (lenght = 4)
-  "answers": [{block_index: 0-4, value: "" || block_id }] (可変長),
+  "answers": [{block_index: 0-4, value: ( "" || block_id ) }] (可変長),
   "level": (int)
 }
 ```
