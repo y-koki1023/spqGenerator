@@ -18,9 +18,9 @@
 {
   "id": "",
   "title": ""(string),
-  "img": ""(imagePath),
-  "blocks": [](block_id), (lenght = 4)
-  "answers": [{block_index: 0-4, value: ( "" || block_id ) }] (可変長),
+  "img": ""(imagePath), -> SVG(https://github.com/scratchblocks/scratchblocks)
+  "blocks": [] {block_id, value}, (lenght = 4)
+  "answer": {block_index: 0-4, value: ( "" || block_id ) },
   "level": (int)
 }
 ```

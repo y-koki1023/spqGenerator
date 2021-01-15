@@ -1,0 +1,43 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "title": "スプライトを時計回りに90度回転させる",
+      "img": "",
+      "blocks": [
+        { "block_id": 2, "value": "90" },
+        { "block_id": 1, "value": "100" },
+        { "block_id": 1, "value": "90" },
+        { "block_id": 2, "value": "10" }
+      ],
+      "answer": 0,
+      "level": 1
+    },
+    {
+      "id": 5,
+      "title": "スプライトを左に向ける　ただしスプライトは右を向いている",
+      "img": "",
+      "blocks": [
+        { "block_id": 2, "value": "180" },
+        { "block_id": 2, "value": "90" },
+        { "block_id": 1, "value": "50" },
+        { "block_id": 2, "value": "10" }
+      ],
+      "answer": 0,
+      "level": 1
+    },
+    {
+      "id": 6,
+      "title": "スプライトを下(90度)に100歩進める ただしスプライトは右を向いている",
+      "img": "./images/question3.png",
+      "blocks": [
+        { "block_id": 1, "value": "10" },
+        { "block_id": 1, "value": "100" },
+        { "block_id": 1, "value": "-10" },
+        { "block_id": 2, "value": "90" }
+      ],
+      "answer": 3,
+      "level": 1
+    }
+  ]
+}

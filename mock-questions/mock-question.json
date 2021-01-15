@@ -4,7 +4,7 @@
       "id": 1,
       "title": "hoge",
       "img": "./",
-      "block": [0, 1, 2, 3],
+      "block": [1, 2, 3, 4],
       "answer": [{ "block_index": 0, "value": 10 }],
       "level": 1
     }
